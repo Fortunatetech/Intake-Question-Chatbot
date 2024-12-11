@@ -1,0 +1,16 @@
+langchain-core
+langchain-openai
+streamlit
+langchain 
+openai 
+python-dotenv
+langchain-community
+SpeechRecognition
+pipwin
+pyaudio
+gTTS
+google-generativeai
+python-dotenv
+streamlit
+
+-e .
