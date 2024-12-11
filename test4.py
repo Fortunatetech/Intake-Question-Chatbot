@@ -15,8 +15,7 @@ from components.intake_question_bank import intake_question_generator
 from dotenv import load_dotenv
 load_dotenv()
 
-os.getenv("OPENAI_API_KEY")
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Streamlit app setup
 st.title("Patient Form Intake Assistant")
